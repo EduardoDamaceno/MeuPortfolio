@@ -42,16 +42,18 @@
 
 .nav__toggle{
   font-size: 1.1rem;
-  cursor: pointer;
+  
 }
 
 .nav__apps:hover{
   color: #069099;
+  
 }
 
 .nav__moon:hover{
   color: #069099;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {
@@ -67,7 +69,13 @@
     background-color: white;
   }
 
-   
+  .nav__moon{
+    padding: 0 1rem 0 1rem;
+  }
+  
+  .nav_apps{
+    padding: 0 1rem 0 1rem;
+  }
 } 
 
 .nav__list{
