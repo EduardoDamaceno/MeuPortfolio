@@ -128,6 +128,55 @@
   }
 } 
 
+@media screen and (max-width: 500px){
+  .home{
+    margin: 1.5rem 1rem 0 1rem;
+    display: grid;
+    grid-template-columns: minmax(5px, 20px) auto;
+    grid-template-rows: repeat(2, auto);  
+    gap: 1rem 2.5rem;
+    justify-content: center;
+    align-content: center; 
+  }
+
+  .home__socias{
+    display: grid;
+    font-size: 1.25rem;
+    align-self: center;
+    gap: 2.5rem;
+    width: 100%;
+  }
+  
+
+  .home__text{
+    grid-column: 1 / 3;
+    grid-row: 2;
+    
+  }
+ 
+  .home__text-title{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.1rem;
+  }
+    
+  .home__text-subtitle{
+    margin: 10px 0 10px 0;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #292828;
+  }
+    
+  .home__text-paragraph{
+    margin: 15px 0 15px 0;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: #525252;
+    width: 100%;
+  }
+}
 
 @media screen and (max-width: 375px){
   .home{
