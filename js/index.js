@@ -1,5 +1,5 @@
 const navMenu = document.querySelector("#nav-menu"),
-      navToggle = document.querySelector("#nav-toggle"),
+      navToggle = document.querySelector("#nav-apps"),
       navClose = document.querySelector("#nav-close")
 
 if(navToggle){

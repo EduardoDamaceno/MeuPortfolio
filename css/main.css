@@ -1,0 +1,79 @@
+.home{
+  margin: 90px 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(3, auto);  
+  gap: 4rem;
+}
+
+.home__socias{
+  display: grid;
+  font-size: 2.5rem;
+  align-self: center;
+  gap: 2.5rem;
+}
+
+.home__socias i{
+  color: #2DE2EE;
+  transition: 0.3s;
+}
+
+.home__socias i:hover{
+  color: #069099;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.home__text{
+  align-self: center;
+  justify-content: end;
+}
+
+.home__text-title{
+  font-weight: bold;
+  font-size: 3.3rem;
+  line-height: 4rem;
+}
+
+.home__text-subtitle{
+  margin: 10px 0 10px 0;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  color: #292828;
+}
+
+.home__text-paragraph{
+  margin: 15px 0 15px 0;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #525252;
+  width: 440px;
+}
+
+.home__text-btn{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: none;
+  background: linear-gradient(180deg, #2DE2EE 85.42%, #198998 100%);
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5); 
+  border-radius: 10px;
+  padding: 1.5rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  color: black;
+  cursor: pointer;
+  transition: all 0.5s;
+
+}
+
+.home__text-btn:hover{
+  background: linear-gradient(180deg, hsl(184, 74%, 51%) 85.42%, #198998 100%);
+  box-shadow: 0px 6px 3px rgba(0, 0, 0, 0.5);
+} 
+
+.home__img{
+ width: 27.5rem;
+ justify-self: end; 
+}

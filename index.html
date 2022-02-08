@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
-  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
   <title>Eduardo</title>
 </head>
@@ -41,15 +41,31 @@
       <div class="nav__btns">
         <div class="nav__toggle" id="nav-toggle">
           <i class="uil uil-moon nav__moon"></i>
-          <i class="uil uil-apps nav__apps"></i>
+          <i class="uil uil-apps nav__apps" id="nav-apps"></i>
         </div>
       </div>
     </nav>
   </header>
 
   <main>
-    <article>
+    <article class="home" id="home">
+
+      <div class="home__socias">
+        <a href="https://github.com/EduardoDamaceno" target="_blank"><i class="uil uil-github-alt"></i></a>
+        <a href="https://www.linkedin.com/in/eduardo-damaceno-1bb974218/" target="_blank"><i class="uil uil-linkedin-alt"></i></a>
+      </div>
+
+      <div class="home__text">
+        <h1 class="home__text-title">Oi, eu sou o Eduardo!</h1>
+        <h2 class="home__text-subtitle">Desenvolvedor Front-End & UX/UI Designer</h2>
+        <p class="home__text-paragraph">Criando soluções online, interfaces que 
+          engajem o cliente e que criam impacto
+          para uma conversão maior.</p>
+        <button href="#contato" class="home__text-btn"> <span> Contacte-me</span><i class="material-icons">send</i></button>  
+      </div>
       
+      <img class="home__img" src="./img/perfil.png" alt="">
+      <div></div>
     </article>
   </main>
 
