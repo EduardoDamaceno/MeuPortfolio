@@ -75,7 +75,8 @@
 
 .home__img{
  width: 27.5rem;
- justify-self: end; 
+ justify-self: end;
+ margin: 0 10px 0 0; 
 }
 
 @media screen and (max-width: 768px) {

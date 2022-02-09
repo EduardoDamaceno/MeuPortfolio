@@ -47,7 +47,7 @@
 
 .nav__apps:hover{
   color: #069099;
-  
+  cursor: pointer;
 }
 
 .nav__moon:hover{

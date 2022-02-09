@@ -1,6 +1,7 @@
 @import './global.css';
 @import './header.css';
-@import './main.css';
+@import './home.css';
+@import './experience.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
@@ -10,5 +11,7 @@ body{
   font-family: 'Fira Sans', Arial, Arial, Helvetica, sans-serif;
   max-width: 1200px;
   margin: 0 auto;
-  /* background-color: rgb(49, 49, 49); */
+  scroll-behavior: smooth;
+  /* overflow-x: hidden; */
+
 }
