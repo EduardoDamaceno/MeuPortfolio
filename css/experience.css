@@ -1,5 +1,5 @@
 .experience{
-   margin-top: 20px ;
+  margin-top: 20px ;
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 6.25rem;
@@ -41,7 +41,7 @@
   border: 1px solid #F0F0F0;
   padding: 20px 27px;
   border-radius: 5px;
-  margin: 0 10px 20px 0;
+  margin: 0 0 20px 0;
 }
 
 .experience__item:last-child{
@@ -170,16 +170,18 @@
     margin-top: 6.25rem;
     grid-template-columns: 1fr;
     gap: 0rem;
+    padding: 100px 20px 0 20px !important;
+    
   }
 
   .experience__title{
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 5rem;
     line-height: 3.6rem;
     text-transform: uppercase;
     color: #E0E0E0;
     word-break: break-all;
-    max-width: 380px;
+    max-width: 500px;
   }
 
   .experience__paragraph{
