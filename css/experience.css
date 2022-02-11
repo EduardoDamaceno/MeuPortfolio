@@ -95,7 +95,15 @@
   background: linear-gradient(180deg, #2DE2EE 85.42%, #198998 100%);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
   border-radius: 4px;
+  transition: 0.3s;
 }
+
+.experience__item-globe:hover{
+  background: linear-gradient(180deg, hsl(184, 74%, 51%) 85.42%, #198998 100%);
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+  color: #000000;
+}
+
 
 .experience__item-list{
   display: flex;
@@ -232,6 +240,8 @@
     grid-column: 1;
     grid-row: 1 / 2;
   }
+
+
   .experience__item-subtitle{
     font-weight: bold;
     font-size: 1rem;

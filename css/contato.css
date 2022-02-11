@@ -56,6 +56,11 @@
   color: #2DE2EE;
 }
 
+.contact__list-link i:hover{
+  color: #069099;
+  transition: 0.3s;
+}
+
 @media screen and (max-width: 1093px){
   .contact__title{
     font-size: 9rem;
