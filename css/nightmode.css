@@ -1,0 +1,60 @@
+.night-mode, .night-mode .nav__menu{
+  background-color: #171717;
+}
+
+.night-mode .nav__logo, .night-mode .nav__home, .night-mode .nav__link, .night-mode .nav__moon, .night-mode .home__text-title, .night-mode{
+  color: #F5F5F5;
+
+}
+
+.night-mode .home__text-subtitle{
+  color: #E0E0E0;
+}
+
+.night-mode .home__text-paragraph{
+  color: #B8B8B8;
+}
+
+.night-mode .nav__logo:hover{
+  color:  white;
+}
+
+.night-mode .nav__moon:hover, .night-mode .nav__home:hover , .night-mode .nav__link:hover {
+  color: #069099;
+}
+
+/* Experiência */
+
+.night-mode .experience__title{
+  color: #525252;
+}
+
+.night-mode .experience__paragraph{
+  color: #E0E0E0;
+}
+
+.night-mode .experience__paragraph span{
+  color: #F5F5F5;
+}
+
+.night-mode .experience__item{
+  background-color: #292828;
+  border: 1px solid #141414;
+}
+
+.night-mode .experience__item-title , .night-mode .experience__item-subtitle{
+  color: #F5F5F5;
+}
+
+.night-mode .experience__item-date{
+  color: #E0E0E0;
+}
+
+.night-mode .experience__item-paragraph, .night-mode .experience__item-list{
+  color: #FFFFFF;
+}
+
+.night-mode .experience__item-list-HTML,.night-mode .experience__item-list-CSS, .night-mode .experience__item-list-Js, .night-mode .experience__item-list-UX, .night-mode .experience__item-list-UI, .night-mode .experience__item-list-MC {
+  color: #FFFFFF;
+  background-color: #141414;
+}
