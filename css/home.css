@@ -180,12 +180,23 @@
   }
 
   .home__text-btn{
-    gap: 0.6rem;
-    padding: 1.5rem;
+    gap: 0rem;
+    padding: 1.25rem;
     font-weight: 600;
     font-size: 1rem;
     line-height: 1.875rem;
+    justify-content: space-between;
+    max-width: 170px;
   }
+
+  .home__text-btn span{
+    min-width: 95px;
+  }
+
+  .home__text-btn i{
+    font-size: 1.25rem;
+  }
+
 
   .home__socias{
     display: grid;
