@@ -140,7 +140,7 @@
   }
 
   .header{
-    padding: 1.5rem 0px 1.5em 0px;
+    padding: 1rem 0px 1em 0px;
     top: 0;
     bottom: initial;
     background-color: white;
@@ -175,3 +175,9 @@
     margin-left: auto;
   }
 }
+
+/* Min header */
+
+/* .header.min{
+
+} */

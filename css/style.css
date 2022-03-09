@@ -8,6 +8,7 @@
 @import './contato.css';
 @import './footer.css';
 @import './nightmode.css';
+@import './js.css';
 
 
 
@@ -17,8 +18,7 @@ body{
   font-family: 'Fira Sans', Arial, Arial, Helvetica, sans-serif;
   margin: 85px auto 0 auto;
   scroll-behavior: smooth;
-  /* overflow-x: hidden; */;
-
+  overflow-x: hidden;
 }
 
 .grid-general{

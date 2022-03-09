@@ -61,6 +61,7 @@
   line-height: 2rem;
   color: #525252;
   width: 100%;
+  max-width: 470px;
 }
 
 .home__text-btn{
@@ -87,9 +88,8 @@
 } 
 
 .home__img{
- width: 27.5rem;
+ width: 25rem;
  justify-self: end;
- margin-top: 20px;
  height: auto;
 }
 
