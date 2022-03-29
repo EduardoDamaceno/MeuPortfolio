@@ -1,57 +1,59 @@
-.js .js-scroll.animate #t200{
+@media screen and (mix-widht: 1000px) {
+  .js .js-scroll.animate #t200{
   transition: 0.8s;
   transition-delay: 0.2s;
-}
+  }
 
-.js .js-scroll.animate #t400{
-  transition: 0.8s;
-  transition-delay: 0.4s;
-}
+  .js .js-scroll.animate #t400{
+    transition: 0.8s;
+    transition-delay: 0.4s;
+  }
 
-.js .js-scroll.animate #t600{
-  transition: 0.8s;
-  transition-delay: 0.6s;
-}
+  .js .js-scroll.animate #t600{
+    transition: 0.8s;
+    transition-delay: 0.6s;
+  }
 
-.js .js-scroll.animate #t800{
-  transition: 0.8s;
-  transition-delay: 0.8s;
-}
+  .js .js-scroll.animate #t800{
+    transition: 0.8s;
+    transition-delay: 0.8s;
+  }
 
-.js .js-scroll.animate #t1000{
-  transition: 0.8s;
-  transition-delay: 1s;
-}
+  .js .js-scroll.animate #t1000{
+    transition: 0.8s;
+    transition-delay: 1s;
+  }
 
-.js .js-scroll .js-scrollLeft {
-  opacity: 0;
-  transform: translate3d(-50px, 0 ,0 );
-  
-}
+  .js .js-scroll .js-scrollLeft {
+    opacity: 0;
+    transform: translate3d(-50px, 0 ,0 );
+    
+  }
 
-.js .js-scroll.animate .js-scrollLeft{
-  opacity: 1;
-  transform: translate3d(0, 0 ,0 )
-}
+  .js .js-scroll.animate .js-scrollLeft{
+    opacity: 1;
+    transform: translate3d(0, 0 ,0 )
+  }
 
-.js .js-scroll .js-scrollRight{
-  opacity: 0;
-  transform: translate3d(50px, 0 ,0 );
-  
-}
+  .js .js-scroll .js-scrollRight{
+    opacity: 0;
+    transform: translate3d(50px, 0 ,0 );
+    
+  }
 
-.js .js-scroll.animate .js-scrollRight{
-  opacity: 1;
-  transform: translate3d(0, 0 ,0 )
-}
+  .js .js-scroll.animate .js-scrollRight{
+    opacity: 1;
+    transform: translate3d(0, 0 ,0 )
+  }
 
-.js .js-scroll .js-scrollBottom{
-  opacity: 0;
-  transform: translate3d(0, 50px ,0 );
-  
-}
+  .js .js-scroll .js-scrollBottom{
+    opacity: 0;
+    transform: translate3d(0, 50px ,0 );
+    
+  }
 
-.js .js-scroll.animate .js-scrollBottom{
-  opacity: 1;
-  transform: translate3d(0, 0 ,0 )
+  .js .js-scroll.animate .js-scrollBottom{
+    opacity: 1;
+    transform: translate3d(0, 0 ,0 )
+  }
 }
